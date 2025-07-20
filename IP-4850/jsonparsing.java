@@ -2920,7 +2920,7 @@ if(isONDCSoftPull==true)   Ml.Request__c = Bureau_Cls.jsonBody; //for Ondc softp
     return profile;
     
     }
-//commented the below method as multibureau field logic changes
+//commented the below method as multibureau field logic
      //public String getCustomerProfile(Decimal liveloans,Decimal amount,Integer repayment,Decimal score)
   /*   public String getCustomerProfile(list <MultiBureau_AccountList__c> MultiBureauAccountList){
        // /*String profile;
